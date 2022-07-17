@@ -1,0 +1,9 @@
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\DTO\bin\Debug\DTO.exe.config
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\DTO\bin\Debug\DTO.exe
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\DTO\bin\Debug\DTO.pdb
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\DTO\obj\Debug\DTO.Properties.Resources.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\DTO\obj\Debug\DTO.csproj.GenerateResource.cache
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\DTO\obj\Debug\DTO.exe
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\DTO\obj\Debug\DTO.pdb

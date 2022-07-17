@@ -1,0 +1,61 @@
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\bin\Debug\SGO - Sistema de Gerenciamento de Oficinas.exe.config
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\bin\Debug\SGO - Sistema de Gerenciamento de Oficinas.exe
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\bin\Debug\SGO - Sistema de Gerenciamento de Oficinas.pdb
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\bin\Debug\BLL.exe
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\bin\Debug\DTO.exe
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\bin\Debug\MetroFramework.dll
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\bin\Debug\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\bin\Debug\TST.exe
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\bin\Debug\BLL.pdb
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\bin\Debug\BLL.exe.config
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\bin\Debug\DTO.pdb
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\bin\Debug\DTO.exe.config
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\bin\Debug\TST.pdb
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\bin\Debug\TST.exe.config
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO - Sistema de Gerenciamento de  Oficinas.csproj.AssemblyReference.cache
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Frm_Alter_Cliente.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Frm_Cad_Cliente.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Frm_Backup.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Frm_Carregamento.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Frm_Alter_Registro_Servico.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Frm_Registro_Servico.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.OPC_Registro_Servico.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Frm_Cad_Registro_Servico.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Frm_Ordem_Quitar.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.OPC_Ordem_Cancel.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Frm_Alter_Ordem.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Frm_Ordem_Analise.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Frm_Ordem_Servico.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.OPC_Ordem_Servico.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Frm_Ordem.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Frm_Alter_Usuario.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Frm_Cad_Usuario.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Frm_Ordem_Financeiro.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Frm_Usuario.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Main.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.OPC_Servico.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.OPC_Usuario.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.OPR_Exclusao_Usuario.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.OPR_Quitar_Ordem.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Frm_Abrir_Ordem_Servico.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Frm_Alter_Servico.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Frm_Cad_Servico.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Frm_Servico.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Frm_Alter_Veiculo.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Frm_Cad_Veiculo.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Frm_Cliente.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Frm_Veiculo.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.OPC_Cliente.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.OPC_Veiculo.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO___Sistema_de_Gerenciamento_de_Oficinas.Properties.Resources.resources
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO - Sistema de Gerenciamento de  Oficinas.csproj.GenerateResource.cache
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO - Sistema de Gerenciamento de  Oficinas.csproj.CoreCompileInputs.cache
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO - Sistema de Gerenciamento de  Oficinas.csproj.CopyComplete
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO - Sistema de Gerenciamento de Oficinas.exe
+C:\Users\pedro\Source\Workspaces\SGO - Oficinas\SGO - Sistema de Gerenciamento de Oficinas\SGO - Sistema de Gerenciamento de Oficinas\obj\Debug\SGO - Sistema de Gerenciamento de Oficinas.pdb

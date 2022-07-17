@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{27968C5D-CBFE-4A39-8D6F-E8C0A199ABE8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SGO___Sistema_de_Gerenciamento_de_Oficinas</RootNamespace>
+    <AssemblyName>SGO - Sistema de Gerenciamento de Oficinas</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <PublishUrl>C:\Users\pedro\Desktop\sis_oficina\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>139387AB3CBAFB1EAFB746DF4B840AEB8FE329E5</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SGO - Sistema de Gerenciamento de Oficinas_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\..\..\..\..\..\DLL\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization.resources">
+      <HintPath>..\..\..\SGE - Sistema de Gerenciamento de Producao\SGE- Sistema de Gerenciamento de Producao\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.DataVisualization.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CLIENTE\Frm_Alter_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CLIENTE\Frm_Alter_Cliente.Designer.cs">
+      <DependentUpon>Frm_Alter_Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CLIENTE\Frm_Cad_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CLIENTE\Frm_Cad_Cliente.Designer.cs">
+      <DependentUpon>Frm_Cad_Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DTS_Tables.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DTS_Tables.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Backup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Backup.Designer.cs">
+      <DependentUpon>Frm_Backup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Carregamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Carregamento.Designer.cs">
+      <DependentUpon>Frm_Carregamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Relatorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Relatorio.Designer.cs">
+      <DependentUpon>Frm_Relatorio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REGISTRO SERVICO\Frm_Alter_Registro_Servico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REGISTRO SERVICO\Frm_Alter_Registro_Servico.Designer.cs">
+      <DependentUpon>Frm_Alter_Registro_Servico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REGISTRO SERVICO\Frm_Registro_Servico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REGISTRO SERVICO\Frm_Registro_Servico.Designer.cs">
+      <DependentUpon>Frm_Registro_Servico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OPCOES\OPC_Registro_Servico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OPCOES\OPC_Registro_Servico.Designer.cs">
+      <DependentUpon>OPC_Registro_Servico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REGISTRO SERVICO\Frm_Cad_Registro_Servico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REGISTRO SERVICO\Frm_Cad_Registro_Servico.Designer.cs">
+      <DependentUpon>Frm_Cad_Registro_Servico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Ordem_Quitar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Ordem_Quitar.Designer.cs">
+      <DependentUpon>Frm_Ordem_Quitar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OPC_Ordem_Cancel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OPC_Ordem_Cancel.Designer.cs">
+      <DependentUpon>OPC_Ordem_Cancel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORDEM_SERVICO\Frm_Alter_Ordem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ORDEM_SERVICO\Frm_Alter_Ordem.Designer.cs">
+      <DependentUpon>Frm_Alter_Ordem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORDEM_SERVICO\Frm_Ordem_Analise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ORDEM_SERVICO\Frm_Ordem_Analise.Designer.cs">
+      <DependentUpon>Frm_Ordem_Analise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORDEM_SERVICO\Frm_Ordem_Servico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ORDEM_SERVICO\Frm_Ordem_Servico.Designer.cs">
+      <DependentUpon>Frm_Ordem_Servico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OPCOES\OPC_Ordem_Servico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OPCOES\OPC_Ordem_Servico.Designer.cs">
+      <DependentUpon>OPC_Ordem_Servico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORDEM_SERVICO\Frm_Ordem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ORDEM_SERVICO\Frm_Ordem.Designer.cs">
+      <DependentUpon>Frm_Ordem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="USUARIO\Frm_Alter_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USUARIO\Frm_Alter_Usuario.Designer.cs">
+      <DependentUpon>Frm_Alter_Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="USUARIO\Frm_Cad_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USUARIO\Frm_Cad_Usuario.Designer.cs">
+      <DependentUpon>Frm_Cad_Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORDEM_SERVICO\Frm_Ordem_Financeiro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ORDEM_SERVICO\Frm_Ordem_Financeiro.Designer.cs">
+      <DependentUpon>Frm_Ordem_Financeiro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="USUARIO\Frm_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USUARIO\Frm_Usuario.Designer.cs">
+      <DependentUpon>Frm_Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OPCOES\OPC_Servico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OPCOES\OPC_Servico.Designer.cs">
+      <DependentUpon>OPC_Servico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OPCOES\OPC_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OPCOES\OPC_Usuario.Designer.cs">
+      <DependentUpon>OPC_Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OPCOES\OPR_Exclusao_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OPCOES\OPR_Exclusao_Usuario.Designer.cs">
+      <DependentUpon>OPR_Exclusao_Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OPCOES\OPR_Quitar_Ordem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OPCOES\OPR_Quitar_Ordem.Designer.cs">
+      <DependentUpon>OPR_Quitar_Ordem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORDEM_SERVICO\Frm_Abrir_Ordem_Servico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ORDEM_SERVICO\Frm_Abrir_Ordem_Servico.Designer.cs">
+      <DependentUpon>Frm_Abrir_Ordem_Servico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SERVICO\Frm_Alter_Servico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SERVICO\Frm_Alter_Servico.Designer.cs">
+      <DependentUpon>Frm_Alter_Servico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SERVICO\Frm_Servico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SERVICO\Frm_Servico.Designer.cs">
+      <DependentUpon>Frm_Servico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VEICULO\Frm_Alter_Veiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VEICULO\Frm_Alter_Veiculo.Designer.cs">
+      <DependentUpon>Frm_Alter_Veiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SERVICO\Frm_Cad_Servico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SERVICO\Frm_Cad_Servico.Designer.cs">
+      <DependentUpon>Frm_Cad_Servico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VEICULO\Frm_Cad_Veiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VEICULO\Frm_Cad_Veiculo.Designer.cs">
+      <DependentUpon>Frm_Cad_Veiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CLIENTE\Frm_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CLIENTE\Frm_Cliente.Designer.cs">
+      <DependentUpon>Frm_Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VEICULO\Frm_Veiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VEICULO\Frm_Veiculo.Designer.cs">
+      <DependentUpon>Frm_Veiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OPCOES\OPC_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OPCOES\OPC_Cliente.Designer.cs">
+      <DependentUpon>OPC_Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OPCOES\OPC_Veiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OPCOES\OPC_Veiculo.Designer.cs">
+      <DependentUpon>OPC_Veiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CLIENTE\Frm_Alter_Cliente.resx">
+      <DependentUpon>Frm_Alter_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CLIENTE\Frm_Cad_Cliente.resx">
+      <DependentUpon>Frm_Cad_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Backup.resx">
+      <DependentUpon>Frm_Backup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Carregamento.resx">
+      <DependentUpon>Frm_Carregamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Relatorio.resx">
+      <DependentUpon>Frm_Relatorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nota_ordem_servico.rdlc" />
+    <EmbeddedResource Include="REGISTRO SERVICO\Frm_Alter_Registro_Servico.resx">
+      <DependentUpon>Frm_Alter_Registro_Servico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REGISTRO SERVICO\Frm_Registro_Servico.resx">
+      <DependentUpon>Frm_Registro_Servico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPCOES\OPC_Registro_Servico.resx">
+      <DependentUpon>OPC_Registro_Servico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REGISTRO SERVICO\Frm_Cad_Registro_Servico.resx">
+      <DependentUpon>Frm_Cad_Registro_Servico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Ordem_Quitar.resx">
+      <DependentUpon>Frm_Ordem_Quitar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPC_Ordem_Cancel.resx">
+      <DependentUpon>OPC_Ordem_Cancel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ORDEM_SERVICO\Frm_Alter_Ordem.resx">
+      <DependentUpon>Frm_Alter_Ordem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ORDEM_SERVICO\Frm_Ordem_Analise.resx">
+      <DependentUpon>Frm_Ordem_Analise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ORDEM_SERVICO\Frm_Ordem_Servico.resx">
+      <DependentUpon>Frm_Ordem_Servico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPCOES\OPC_Ordem_Servico.resx">
+      <DependentUpon>OPC_Ordem_Servico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ORDEM_SERVICO\Frm_Ordem.resx">
+      <DependentUpon>Frm_Ordem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sub_Servicos_Ordem.rdlc" />
+    <EmbeddedResource Include="USUARIO\Frm_Alter_Usuario.resx">
+      <DependentUpon>Frm_Alter_Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USUARIO\Frm_Cad_Usuario.resx">
+      <DependentUpon>Frm_Cad_Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ORDEM_SERVICO\Frm_Ordem_Financeiro.resx">
+      <DependentUpon>Frm_Ordem_Financeiro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USUARIO\Frm_Usuario.resx">
+      <DependentUpon>Frm_Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPCOES\OPC_Servico.resx">
+      <DependentUpon>OPC_Servico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPCOES\OPC_Usuario.resx">
+      <DependentUpon>OPC_Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPCOES\OPR_Exclusao_Usuario.resx">
+      <DependentUpon>OPR_Exclusao_Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPCOES\OPR_Quitar_Ordem.resx">
+      <DependentUpon>OPR_Quitar_Ordem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ORDEM_SERVICO\Frm_Abrir_Ordem_Servico.resx">
+      <DependentUpon>Frm_Abrir_Ordem_Servico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SERVICO\Frm_Alter_Servico.resx">
+      <DependentUpon>Frm_Alter_Servico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SERVICO\Frm_Cad_Servico.resx">
+      <DependentUpon>Frm_Cad_Servico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SERVICO\Frm_Servico.resx">
+      <DependentUpon>Frm_Servico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VEICULO\Frm_Alter_Veiculo.resx">
+      <DependentUpon>Frm_Alter_Veiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VEICULO\Frm_Cad_Veiculo.resx">
+      <DependentUpon>Frm_Cad_Veiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CLIENTE\Frm_Cliente.resx">
+      <DependentUpon>Frm_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VEICULO\Frm_Veiculo.resx">
+      <DependentUpon>Frm_Veiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPCOES\OPC_Cliente.resx">
+      <DependentUpon>OPC_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPCOES\OPC_Veiculo.resx">
+      <DependentUpon>OPC_Veiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="DTS_Tables.xsc">
+      <DependentUpon>DTS_Tables.xsd</DependentUpon>
+    </None>
+    <None Include="DTS_Tables.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DTS_Tables.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DTS_Tables.xss">
+      <DependentUpon>DTS_Tables.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SGO - Sistema de Gerenciamento de Oficinas_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{6a86af94-5790-44c5-8d21-4340036e5f24}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{f550b61f-9701-4cc6-8b12-46f8e450efbf}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TST\TST.csproj">
+      <Project>{42cd2bb9-c3b4-4ead-a91a-8018c235e095}</Project>
+      <Name>TST</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BACKUP\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
